@@ -21,7 +21,8 @@ function checkAnswer() {
         ans.value = "";
     }
     else {
-        ans.value = "you got it wrong >:(";
+        ans.value = "";
+        textOfSomeSort.innerText = "you got it wrong >:(";
     }
 }
 function changeElement() {
