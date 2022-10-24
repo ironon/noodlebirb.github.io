@@ -6,3 +6,27 @@ body {
 h1 {
   color: rgb(88, 82, 255);
 }
+button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 100%;
+  cursor: pointer;
+  background-color: rgb(88, 82, 255);
+  color: white;
+}
+
+#answer {
+  width: 25%;
+}
+
+#submit {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 100%;
+  cursor: pointer;
+  background-color: rgb(88, 82, 255);
+  color: white;
+}
+

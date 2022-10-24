@@ -1,5 +1,5 @@
 var ranIndex;
-var textOfSomeSort;
+var textOfSomeSort = document.getElementById("correct");
 let elements = [
     ["H2PO3", "Dihydrogen Phosphite" ],
     ["H2PO4", "Dihydrogen Phosphate"],
@@ -43,6 +43,8 @@ function checkAnswer() {
     }
     else {
         ans.value = "";
+        textOfSomeSort.innerText = "you got it wrong >:(";
+        console.log("ur wrong lol");
     }
 }
 function changeElement() {
@@ -50,7 +52,7 @@ function changeElement() {
     ranIndex = Math.floor(Math.random() * elements.length);
     var ranElement = elements[ranIndex][0]
     docId.innerText = ranElement;
-    textOfSomeSort.innerText = "";
+    textOfSomeSort.innerHTML = "Waiting for input...";
 }
 
 addEventListener("DOMContentLoaded", changeElement)
