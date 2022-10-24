@@ -42,7 +42,7 @@ function checkAnswer() {
         ans.value = "";
     }
     else {
-        ans.value = "";
+        ans.value = "you got it wrong >:(";
     }
 }
 function changeElement() {
