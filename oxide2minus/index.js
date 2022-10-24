@@ -1,5 +1,5 @@
 var ranIndex;
-var textOfSomeSort;
+var textOfSomeSort = document.getElementById("correct");
 let elements = [
     ["HPO3", "Hydrogen Phosphite" ],
     ["HPO4", "Hydrogen Phosphate"],
@@ -20,7 +20,7 @@ function homepage() {
 function checkAnswer() {
     var ans = document.getElementById("answer");
     if (ans.value.toLowerCase().trim() == elements[ranIndex][1].toLowerCase()) {
-        textOfSomeSort = document.getElementById("correct");
+      
         textOfSomeSort.innerText = "Correct!!!";
         setTimeout(changeElement, 1000)
         

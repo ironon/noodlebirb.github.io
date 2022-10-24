@@ -1,5 +1,5 @@
 var ranIndex;
-var textOfSomeSort;
+var textOfSomeSort = document.getElementById("correct");
 let elements = [
     ["PO3", "Phosphite" ],
     ["PO4", "Phosphate"],
