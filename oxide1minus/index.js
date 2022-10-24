@@ -44,6 +44,7 @@ function checkAnswer() {
     else {
         ans.value = "";
         textOfSomeSort.innerText = "you got it wrong >:(";
+        console.log("ur wrong lol");
     }
 }
 function changeElement() {
