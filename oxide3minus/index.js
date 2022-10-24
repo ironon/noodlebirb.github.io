@@ -1,31 +1,10 @@
 var ranIndex;
 var textOfSomeSort;
 let elements = [
-    ["H2PO3", "Dihydrogen Phosphite" ],
-    ["H2PO4", "Dihydrogen Phosphate"],
-    ["HSO3", "Hydrogen Sulfite"],
-    ["HSO4", "Hydrogen Sulfate"],
-    ["HC2O4", "Hydrogen Oxalate"],
-    ["SCN", "Thiocyanate"],
-    ["CN", "Cyanide"],
-    ["C2H3O2", "Acetate"],
-    ["MnO4", "Permanganate"],
-    ["HCO3", "Hydrogen Carbonate"],
-    ["OH", "Hydroxide"],
-    ["NO2", "Nitrite"],
-    ["NO3", "Nitrate"],
-    ["ClO", "Hypochlorite"],
-    ["ClO2", "Chlorite"],
-    ["ClO3", "Chlorate"],
-    ["ClO4", "Perchlorate"],
-    ["IO", "Hypoiodite"],
-    ["IO2", "Iodite"],
-    ["IO3", "Iodate"],
-    ["IO4", "Periodate"],
-    ["BrO", "Hypobromite"],
-    ["BrO2", "Bromite"],
-    ["BrO3", "Bromate"],
-    ["BrO4", "Perbromate"]
+    ["PO3", "Phosphite" ],
+    ["PO4", "Phosphate"],
+    ["AsO4", "Arsenate"],
+    ["BO3", "Borate"]
 ];
 
 function homepage() {
