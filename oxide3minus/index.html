@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="birb.png"/>
     <link rel="stylesheet" href="index.css"></style>
+    <link rel="icon" type="image/png" href="birb.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
-    <title>study thing</title>
+    <title>Polyatomic stuff</title>
 </head>
 <body>
     <script src="index.js"></script>
-    <h1>Welcome to the NoodleBirb site I guess</h1>
-    <p>Prepare to suffer<p>
-    <button onclick="oxideoneminus()">to oxide1minus</button>\
-    <button onclick="oxidetwominus()">to oxide2minus</button>
-    <button onclick="oxidethreeminus()">to oxide3minus</button>
+    <button onclick="homepage()">go to homepage</button>
+
+    <h1>Polyatomics 3-</h1>
+    <form onsubmit="checkAnswer();return false">
+        <label id = "formula">label:</label><br>
+        <input type="text" id="answer" value=""><br><br>
+        <input type="submit">
+    </form>
+    <p id = "correct">
+        
+    </p>
 </body>
+
 </html>
